@@ -177,24 +177,24 @@ También se agregaron los scripts de despliegue en `package.json`:
 
 ## a) ¿Qué diferencia hay entre props y state en React?
 
-Las `props` son datos que un componente recibe desde otro componente. Sirven para mandar información de un componente padre a un componente hijo. Por ejemplo, en mi proyecto el componente `Carta` recibe por props el nombre, tipo, rareza, poder y descripción de cada personaje.
+Las props son datos que un componente recibe desde otro componente. Sirven para mandar información de un componente padre a un componente hijo. Por ejemplo, en mi proyecto el componente Carta recibe por props el nombre, tipo, rareza, poder y descripción de cada personaje.
 
-El `state`, en cambio, es información que puede cambiar dentro de un componente. Cuando el estado cambia, React actualiza la pantalla automáticamente. En mi proyecto usé state para guardar la carta seleccionada y el poder actual de esa carta.
+El state, en cambio, es información que puede cambiar dentro de un componente. Cuando el estado cambia, React actualiza la pantalla automáticamente. En mi proyecto usé state para guardar la carta seleccionada y el poder actual de esa carta.
 
 ## b) ¿Por qué es importante usar una key al renderizar una lista de elementos?
 
-Es importante usar una `key` porque React necesita identificar cada elemento de una lista de forma única. Esto ayuda a que React sepa qué elemento cambió, cuál se agregó o cuál se eliminó.
+Es importante usar una key porque React necesita identificar cada elemento de una lista de forma única. Esto ayuda a que React sepa qué elemento cambió, cuál se agregó o cuál se eliminó.
 
-En mi proyecto, cada carta tiene un `id`, y ese `id` se usa como `key` cuando se renderiza la lista con `.map()`.
+En mi proyecto, cada carta tiene un id, y ese id se usa como key cuando se renderiza la lista con .map().
 
 Esto hace que React pueda manejar mejor la lista de cartas y actualizar correctamente la interfaz.
 
 
 ## c) Explica con tus propias palabras qué hace la función useState y da un ejemplo de dónde la usaste en tu mini aplicación.
 
-La función `useState` sirve para guardar información que puede cambiar mientras se usa la aplicación. Cuando esa información cambia, React vuelve a mostrar la parte necesaria de la pantalla con el nuevo valor.
+La función useState sirve para guardar información que puede cambiar mientras se usa la aplicación. Cuando esa información cambia, React vuelve a mostrar la parte necesaria de la pantalla con el nuevo valor.
 
-En mi mini aplicación usé `useState` para guardar la carta seleccionada y el poder actual de esa carta.
+En mi mini aplicación usé useState para guardar la carta seleccionada y el poder actual de esa carta.
 
 Ejemplo:
 
