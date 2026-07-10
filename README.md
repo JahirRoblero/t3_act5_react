@@ -8,17 +8,15 @@
 
 **Carrera:** Ingeniería en Sistemas Computacionales <br><br><br><br>
 **Materia:** Programación Web<br><br><br><br>
-**Actividad:** Act5. Introducción a React - Fundamentos y Primer Componente <br><br><br><br>
+**Actividad:** 5 Introducción a React - Fundamentos y Primer Componente <br><br><br><br>
 **Docente:** Adelina Martínez Nieto<br><br><br><br>
-**Integrantes:**
-Gomez Roblero Angel Jahir <br>
+**Alumno:** Gomez Roblero Angel Jahir <br>
 **Fecha de entrega:** 10 de julio del 2026<br><br><br><br>
 
 </div>
 
 ## Dragon Ball Juego
 
-Este proyecto fue realizado para la actividad 5 de introducción a React.  
 La aplicación consiste en una mini baraja de cartas de personajes de Dragon Ball, donde el usuario puede seleccionar una carta y modificar su nivel de poder usando botones.
 
 El proyecto fue creado con **Vite + React** y utiliza componentes, props, estado con `useState`, eventos y renderizado dinámico de listas con `.map()`.
@@ -189,22 +187,6 @@ Es importante usar una `key` porque React necesita identificar cada elemento de 
 
 En mi proyecto, cada carta tiene un `id`, y ese `id` se usa como `key` cuando se renderiza la lista con `.map()`.
 
-Ejemplo:
-
-```jsx
-{cartas.map((carta) => (
-  <Carta
-    key={carta.id}
-    nombre={carta.nombre}
-    tipo={carta.tipo}
-    rareza={carta.rareza}
-    poder={carta.poder}
-    descripcion={carta.descripcion}
-    onSeleccionar={() => seleccionarCarta(carta)}
-  />
-))}
-```
-
 Esto hace que React pueda manejar mejor la lista de cartas y actualizar correctamente la interfaz.
 
 
@@ -243,20 +225,10 @@ function reiniciarPoder() {
   setPoderActual(cartaSeleccionada.poder);
 }
 ```
-
 ## d) Enlace del repositorio de GitHub
 
-Repositorio:
-
-```txt
-https://github.com/JahirRoblero/t3_act5_react
-```
-
+[https://github.com/JahirRoblero/t3_act5_react](https://github.com/JahirRoblero/t3_act5_react)
 
 ## e) Enlace del proyecto desplegado en GitHub Pages
 
-Proyecto desplegado:
-
-```txt
-https://JahirRoblero.github.io/t3_act5_react/
-```
+[https://JahirRoblero.github.io/t3_act5_react/](https://JahirRoblero.github.io/t3_act5_react/)
