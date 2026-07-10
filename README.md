@@ -1,5 +1,21 @@
 # Act5. Introducción a React - Fundamentos y Primer Componente
 
+<div align="center">
+
+# Instituto Tecnológico Nacional de México
+
+### Instituto Tecnológico de Oaxaca
+
+**Carrera:** Ingeniería en Sistemas Computacionales <br><br><br><br>
+**Materia:** Programación Web<br><br><br><br>
+**Actividad:** Act5. Introducción a React - Fundamentos y Primer Componente <br><br><br><br>
+**Docente:** Adelina Martínez Nieto<br><br><br><br>
+**Integrantes:**
+Gomez Roblero Angel Jahir <br>
+**Fecha de entrega:** 10 de julio del 2026<br><br><br><br>
+
+</div>
+
 ## Dragon Ball Juego
 
 Este proyecto fue realizado para la actividad 5 de introducción a React.  
@@ -10,6 +26,7 @@ El proyecto fue creado con **Vite + React** y utiliza componentes, props, estado
 ## Objetivo del proyecto
 
 El objetivo principal de esta práctica es comprender los fundamentos básicos de React, como:
+
 
 - Creación de componentes funcionales.
 - Uso de props para enviar información entre componentes.
